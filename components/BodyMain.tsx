@@ -193,52 +193,55 @@ const BodyMain = () => {
         </div>
 
         {/* Container third */}
-        <div className="flex gap-20 mt-14">
-          <div className="relative z-20 w-[600px] h-80 cursor-pointer">
-            <div className="bg-[#6C64A8] w-full h-full rounded-4xl relative overflow-hidden">
-              <img
-                src="Group2.png"
-                alt="Illustration"
-                className="absolute -left-[6rem] z-10 top-16 animate-subtle-bounce"
-              />
-              <div className="absolute flex flex-col justify-items-center text-white top-10 left-24 text-right mr-10 z-20">
-                <h1 className="text-4xl font-extrabold">
-                  Get Mentored & Supported
-                </h1>
-                <h2 className="text-2xl font-semibold mt-2 mb-6">
-                  You're not learning alone.
-                </h2>
-                <h2 className="text-md pl-36">
-                  Stuck or need feedback? SkillShikshya’s community of mentors
-                  and learners has your back with live support, interactive
-                  discussions, and expert insights. You’re never on your own.
-                </h2>
+        <div className="flex gap-20">
+          <div className="flex gap-20 mt-14">
+            <div className="relative z-20 w-[600px] h-80 cursor-pointer">
+              <div className="bg-[#6C64A8] w-full h-full rounded-4xl relative overflow-hidden">
+                <img
+                  src="Group2.png"
+                  alt="Illustration"
+                  className="absolute -left-[6rem] z-10 top-16 animate-subtle-bounce"
+                />
+                <div className="absolute flex flex-col justify-items-center text-white top-10 left-24 text-right mr-10 z-20">
+                  <h1 className="text-4xl font-extrabold">
+                    Get Mentored & Supported
+                  </h1>
+                  <h2 className="text-2xl font-semibold mt-2 mb-6">
+                    You're not learning alone.
+                  </h2>
+                  <h2 className="text-md pl-36">
+                    Stuck or need feedback? SkillShikshya’s community of mentors
+                    and learners has your back with live support, interactive
+                    discussions, and expert insights. You’re never on your own.
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Container fourth */}
-        <div className="flex gap-20 mt-14">
-          <div className="relative z-20 w-[600px] h-80 cursor-pointer">
-            <div className="bg-[#6C64A8] w-full h-full rounded-4xl relative overflow-hidden">
-              <img
-                src="Group2.png"
-                alt="Illustration"
-                className="absolute -left-[6rem] z-10 top-16 animate-subtle-bounce"
-              />
-              <div className="absolute flex flex-col justify-items-center text-white top-10 left-24 text-right mr-10 z-20">
-                <h1 className="text-4xl font-extrabold">
-                  Get Mentored & Supported
-                </h1>
-                <h2 className="text-2xl font-semibold mt-2 mb-6">
-                  You're not learning alone.
-                </h2>
-                <h2 className="text-md pl-36">
-                  Stuck or need feedback? SkillShikshya’s community of mentors
-                  and learners has your back with live support, interactive
-                  discussions, and expert insights. You’re never on your own.
-                </h2>
+          {/* Container fourth */}
+          <div className="flex gap-20 mt-14">
+            <div className="relative z-20 w-[600px] h-80 cursor-pointer">
+              <div className="bg-[#A88964] w-full h-full rounded-4xl relative overflow-hidden">
+                <img
+                  src="Group3.png"
+                  alt="Illustration"
+                  className="absolute -right-[4rem] z-10 top-16 animate-subtle-bounce"
+                />
+                <div className="absolute flex flex-col justify-items-center text-white top-10 right-24 text-left mr-10 z-20">
+                  <h1 className="text-4xl pl-10 font-extrabold">
+                    Achieve & Showcase
+                  </h1>
+                  <h2 className="text-2xl font-semibold pl-10 mt-2 mb-6">
+                    Build your portfolio, get job-ready.
+                  </h2>
+                  <h2 className="text-md pl-10 pr-10">
+                    Your journey ends with achievement. Each completed project
+                    builds a portfolio showcasing your skills and job readiness,
+                    bringing you closer to that dream job, promotion, or your
+                    own venture.
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
