@@ -23,7 +23,6 @@ const BodyMain = () => {
 
   return (
     <div className="ml-40 mt-8">
-      {/* Container Header */}
       <header className="flex flex-col gap-1">
         <h1 className="text-2xl font-semibold text-gray-700">
           Your SkillShikshya Journey
@@ -217,26 +216,28 @@ const BodyMain = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Container fourth */}
-
+        {/* Container fourth */}
+        <div className="flex gap-20 mt-14">
           <div className="relative z-20 w-[600px] h-80 cursor-pointer">
-            <div className="bg-[#A88964] w-full h-full rounded-4xl relative overflow-hidden">
+            <div className="bg-[#6C64A8] w-full h-full rounded-4xl relative overflow-hidden">
               <img
-                src="Group3.png"
+                src="Group2.png"
                 alt="Illustration"
-                className="absolute -right-[3rem] z-10 top-16 animate-subtle-bounce"
+                className="absolute -left-[6rem] z-10 top-16 animate-subtle-bounce"
               />
-              <div className="absolute flex flex-col justify-items-center text-white top-10 right-24 left-6 text-left mr-10 z-20">
-                <h1 className="text-4xl font-extrabold">Achieve & Showcase</h1>
+              <div className="absolute flex flex-col justify-items-center text-white top-10 left-24 text-right mr-10 z-20">
+                <h1 className="text-4xl font-extrabold">
+                  Get Mentored & Supported
+                </h1>
                 <h2 className="text-2xl font-semibold mt-2 mb-6">
-                  Build your portfolio, get job-ready.
+                  You're not learning alone.
                 </h2>
-                <h2 className="text-md pr-36">
-                  Your journey ends with achievement. Each completed project
-                  builds a portfolio showcasing your skills and job readiness,
-                  bringing you closer to that dream job, promotion, or your own
-                  venture.
+                <h2 className="text-md pl-36">
+                  Stuck or need feedback? SkillShikshya’s community of mentors
+                  and learners has your back with live support, interactive
+                  discussions, and expert insights. You’re never on your own.
                 </h2>
               </div>
             </div>
